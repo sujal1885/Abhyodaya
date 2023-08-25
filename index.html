@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("images/home.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: #41C113;
+            margin: 0;
+        }
+        .side-container{
+            position: absolute;
+            right: 0;
+            background-color: white;
+            width: 40%;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            height: 100vh;
+        }
+        .bullet-flow{
+            display: flex;
+            margin-top: 15%;
+        }
+        .bullet-flow li{
+            font-size: 1.4rem;
+            line-height: 3rem;
+        }
+        .basic-details{
+            padding: 2rem;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        .basic-details p{
+            color: gray;
+            font-size: 1.3rem;
+        }
+        .line{
+            padding: 1rem;
+        }
+        .image-logo{
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+        }
+        .image-logo img{
+            width: 60%;
+        }
+        .heading{
+            position: absolute;
+            color: white;
+        }
+        .heading p{
+            font-family:cursive;
+            font-size: 2rem;
+            font-weight: bolder;
+            padding: 1rem;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <p>ABHYUDAYA</p>
+    </div>
+    <div class="side-container">
+        <div class="bullet-flow">
+            <ul>
+                <li><a href="event.html">Event Registration</a></li>
+                <li><a href="event.html">Previous Year Events</a></li>
+                <li><a href="thirdpage.html">Art Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="basic-details">
+            <p><a href="main.html">Home</a></p>
+            <p><a href="event.html">Privacy Policy</a></p>
+        </div>
+        <div class="line">
+            <hr>
+        </div>
+        <div class="image-logo">
+            <img src="images/home2.png" alt="">
+        </div>
+    </div>
+</body>
+</html>

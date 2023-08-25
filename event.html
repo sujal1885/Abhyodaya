@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-color: #7b6969;
+            margin: 0;
+        }
+        .heading{
+            height: 5rem;
+            background-color: #402321;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            margin-bottom: 2rem;
+        }
+        .heading span{
+            font-size: 2rem;
+            font-family: cursive;
+        }
+        .slider{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .slider img{
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .sub-heading{
+            color: white;
+            font-size: 1.3rem;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <span>Events</span>
+    </div>
+    <div class="sub-heading">
+        Click on the image to open google form
+    </div>
+    <div class="slider">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="https://forms.gle/8fEvpzeBwnyQ39sV6" target="_blank">
+                    <img src="images/new1.jpg" class="d-block w-33" alt="img1">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://forms.gle/DvMQmRrxPXenJyA99" target="_blank">
+                    <img src="images/new2.jpg" class="d-block w-33" alt="img2">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://forms.gle/aLMB7YnkJ24mNZiF8" target="_blank">
+                    <img src="images/new3.png" class="d-block w-33" alt="img3">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://forms.gle/8fEvpzeBwnyQ39sV6" target="_blank">
+                    <img src="images/new5.png" class="d-block w-33" alt="img5">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://forms.gle/8fEvpzeBwnyQ39sV6" target="_blank">
+                    <img src="images/new6.png" class="d-block w-33" alt="img6">
+                </a>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
